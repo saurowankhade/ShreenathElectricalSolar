@@ -1,0 +1,618 @@
+<!doctype html>
+<html>
+	<head>
+		<title> SHREENATH ELECTRICAL AND ENGINEER CONTRACTOR</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="res.css">
+		<style>
+		html{
+		font-size: 62.5%;
+		scroll-behavior: smooth;
+		}
+		*
+		{padding: 0;
+		margin: 0;
+		box-sizing: border-box;
+		font-size: 1.5rem;
+		}
+		body{
+		background-color:#fafafa;
+		font-family: sans-serif;
+		}
+		.menu-bar{
+		background: rgb(0,100,0);
+		text-align: center;
+		z-index: 2;
+		
+		}
+		.menu-bar ul{
+		display: inline-flex;
+		list-style: none;
+		color: #fff;z-index: 2;
+		}
+		.menu-bar ul li{
+		width: 12.0rem;
+		margin: 1.5rem;
+		padding:1.5rem;z-index: 2;
+		
+		}
+		.menu-bar ul li a {
+		text-decoration:none;
+		color:#fff;z-index: 2;
+		}
+		.active,.menu-bar ul li:hover{
+		background: #2bab0d;
+		border-radius: .3rem;z-index: 2;
+		}
+		.company_logo{
+		margin-top: .0rem;
+		margin-left: -5.0rem;
+		height: 5.0rem;
+		width: 10.0rem;
+		border-style: solid yellow 1px;
+		border-radius: 100%;cursor: pointer;
+		}
+		.company_logo:hover{
+		transform: scale(1.2);
+		transition:all 300ms;
+		}
+		.menu-bar fa{
+		margin-right: .8rem;z-index: 2;
+		}
+		.sub-menu-1{
+		display:none;z-index: 2;
+		}
+		.menu-bar ul li:hover .sub-menu-1{
+		display: block;
+		position: absolute;
+		background:rgb(0,100,0);
+		margin-top:1.5rem;
+		margin-left:-1.5rem;z-index: 2;
+		}
+		
+		.menu-bar ul li:hover .sub-menu-1 ul{
+		display:block;
+		margin:1.0rem;z-index: 2;
+		}
+		.sub-menu-2{
+		display:none;z-index: 2;
+		}
+		
+		.menu-bar ul li:hover .sub-menu-2 ul{
+		display:block;z-index: 2;
+		margin:1.0rem;
+		}
+		.menu-bar ul li:hover .sub-menu-2{
+		display: block;
+		position: absolute;
+		background:rgb(0,100,0);
+		margin-left:-1.6rem;
+		margin-top:1.4rem;z-index: 2;
+		}
+		.shree{
+		margin-top:3.0rem;
+		background-color:#fff4fc;
+		margin-left:3.0rem;
+		margin-bottom:3.0rem;
+		margin-right:3.0rem;
+		height:100.0rem;
+		}
+		
+		.company_logo{
+		margin-top: .0rem;
+		margin-left: -5.0rem;
+		height: 5.0rem;
+		width: 10.0rem;
+		border-style: solid yellow 0.1rem;
+		border-radius: 100%;
+		cursor: pointer;
+		}
+		.company_logo:hover{
+		transform: scale(1.2);
+		transition:all 300ms;
+		cursor: pointer;
+		}
+		
+		/* start of box for mayuresh gadge */
+		.mayuresh{
+		background-color: #DDDEA6;
+		width: 90rem;
+		margin: 1%;
+		display: inline-block;
+		border-radius: 2em;
+		border-top-right-radius: 10em;
+		box-shadow: 0rem 0rem 1.5rem #c5c5c5;
+		display: flex;
+		-webkit-border-radius: 2em;
+		-moz-border-radius: 2em;
+		-ms-border-radius: 2em;
+		-o-border-radius: 2em;
+		}
+		.img_of_mayuresh{
+		width: 300%;
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+		margin-left: 1rem;
+		border-top-left-radius: 2em;
+		border-top-right-radius: 2em;
+		border-bottom-left-radius:2em;
+		border-bottom-right-radius: 2em;
+		}
+		.heading_on_mayuresh{
+		padding: 2em 1em 2em;
+		}
+		.card-info-heading{
+		font-size: 1.5em;
+		text-align: right;
+		color: #181818;
+		}
+		.passs_on_mayuresh{
+			word-spacing: 0.4rem;
+		color: #666666;
+		font-size: 0.9em;
+		text-align: justify;
+		font-weight: lighter;
+		}
+		/* end of box mayuresh gadge */
+		
+		/* start of box for machine  */
+		/* for machine card */
+		.machines{
+			background-color: #BA9BA4;
+		}
+		.h2{
+			font-size: 5rem;
+		}
+		.card{
+		width: 40.0rem;
+		margin: 1%;
+		display: inline-block;
+		border-radius: 2em;
+		border-top-right-radius: 10em;
+		box-shadow: 0rem 0rem 1.5rem #c5c5c5;
+		
+		}
+		.card:hover{
+			cursor: pointer;
+			box-shadow: 0rem 0rem 9rem #c5c5c5;
+		}
+		.card-image{
+		width: 100%;
+		border-top-left-radius: 2em;
+		border-top-right-radius: 2em;
+		}
+		.card-info-container{
+		padding: 2em 1em 2em;
+		}
+		.card-info-heading{
+		font-size: 1.5em;
+		color: #181818;
+		text-align: left;
+		}
+		.card-info-para{
+		color: #666666;
+		font-size: 0.9em;
+		text-align: justify;
+		font-weight: lighter;
+		}
+		/* end of box machine */
+		/* product */
+		.product{
+			background-color:#A8F3CA ;
+		}
+		
+		/* create */
+		.create p{
+			color: #D4F3CC;
+			/* text-align: right; */
+			/* text-decoration: none; */
+		}
+		.create a{
+			/* right: 0rem; */
+			text-decoration: none;
+			color: #F1B691;
+			font-size: 2rem;
+		}
+		.create a:hover{
+			color: #F0620C;
+		}
+		/* contact */
+		.gotopbtn {
+		position: fixed;
+		width: 5.0rem;
+		height: 5.0rem;
+		background-color: #27ae60;
+		bottom: 5.0rem;
+		right: 6.0rem;
+		text-decoration: none;
+		line-height: 5.0rem;
+		text-align: center;
+		color: white;
+		font-size: 3.0rem;
+		}
+		@media (max-width: 998px) {
+		html{
+		font-size: 50%;
+		}
+		/* start of box for mayuresh gadge */
+		.mayuresh{
+		width: 120rem;
+		}
+		.h2{
+			font-size: 7rem;
+		}
+		.card{
+		width: 40.0rem;
+		margin-left: 10rem;
+		}
+		.card-info-heading{
+			font-size: 4rem;
+		}
+		.passs_on_mayuresh{
+			font-size: 1rem;
+		}
+		.company_logo{
+		margin-top: .0rem;
+		margin-left: 1rem;
+		height: 7.0rem;
+		width: 15.0rem;
+		}
+		.create a {
+		font-size: 3rem;
+		}
+		.create p {
+		font-size: 3rem;
+		}
+		.instagram{
+		font-size: 5rem;
+		}
+		.facebook{
+		font-size: 5rem;
+		}
+		.whatsapp{
+		font-size: 5rem;
+		}
+		.contact h2{
+		font-size: 5rem;
+		}
+		}
+		@media(max-width: 768px){
+		html{
+		font-size: 30%;
+		}
+		}
+		@media(max-width: 568px){
+		html{
+		font-size: 20%;
+		}
+		}
+		</style>
+	</head>
+	<body>
+		<div id="go_to_down"></div>
+		<div class="menu-bar">
+			<ul><img class="company_logo" src="img/company%20logo.jpeg" alt="img of company logo">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<li class="active"><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
+				<li><i class="fa fa-user" aria-hidden="true"></i><a href="about.html">About us</a>
+			</li>
+			<li><i class="fa fa-" aria-hidden="true"></i>Project
+				<div class="sub-menu-1">
+					
+					<ul>
+						<li><a href="project_done.html">Project Done </a></li>
+						<li><a href="project_in_hand.html">Project in Hand </a></li>
+						<li><a href="future_project.html">Future Project </a></li>
+						
+						
+					</ul>
+					
+				</div>
+			</li>
+			<li>Department
+				<div class="sub-menu-2">
+					<ul>
+						<li><a href="manufacturing.html">Manufacturing</a></li>
+						<li><a href="service.html">Service</a></li>
+						
+					</ul>
+				</div>
+			</li>
+			<li><a href="gallery.html"><i class="fa fa-file-image-o" aria-hidden="true"></i>Gallery</a></li>
+			<li><a href="contact.html"><i class="fa fa-phone" aria-hidden="true"></i>Contact us</a></li>
+		</ul>
+	</div>
+	<center>
+	<div class="main_mayuresh">
+		<center><div class="mayuresh">
+			<div class="img_of_mayuresh">
+				<img src="img/mayuresh%20gadge.png" alt="img" class="card-image">
+			</div>
+			<div class="heading_on_mayuresh">
+				<h2 class="card-info-heading">Mr.Mayuresh Gadge</h2>
+				<br/>
+				<p class="passs_on_mayuresh">
+					He was joined the company in 2012. He put more emphasis on technology because he is a technical person. He started workshop in 2018 so that the manufacturing department is handled by him. He is a mechanical engineer. He has the degree of electrical engineering. He is a mechanical engineer so he is trying to import machines. He has many experiences about his work. He has many good qualities i.e. he is a problem solver person, he is honest about his work, he has ability to motivate the workers for his work and so on.
+				</p>
+				
+			</div>
+		</div>
+		</center>
+	</div>
+	</center>
+	<div class="machines">
+		<center><b><h1 class="h2">Machine </h1></b></center>
+		<div class="main_card">
+			<center>
+			<div class="card">
+				<div class="card-image-container">
+					<img src="img/Hydraulic%20Press%20Machine.png" alt="img" class="card-image">
+				</div>
+				<div class="card-info-container">
+					<h2 class="card-info-heading">Hydraulic Press Machine</h2>
+					<br/>
+					<p class="card-info-para">
+						Hydraulic presses are commonly used for forging, clinching, moulding, blanking, punching, deep drawing, and metal forming operations. The hydraulic press is advantageous in manufacturing, it gives the ability to create more intricate shapes and can be economical with materials.<br><br>
+					</p>
+					
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-image-container">
+					<img src="img/Steel%20bar%20bending%20machine.jpg" alt="img" class="card-image">
+				</div>
+				<div class="card-info-container">
+					<h2 class="card-info-heading"> Bar Bending Machine</h2>
+					<br/>
+					<p class="card-info-para">
+						Bar bending machine is consisting of electric motor, coupling, circular plate, worm gear drive, extended shaft. Electric motor transmits power to gear box where speed is decreased and torque is increased. Which is used to bend bar with the help of circular plate. Bend at any required angle for bar having dia.
+					</p>
+					
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-image-container">
+					<img src="img/Nut%20trading%20machine.jpg" alt="img" class="card-image">
+				</div>
+				<div class="card-info-container">
+					<h2 class="card-info-heading">Bar Thrading Machine</h2>
+					<br/>
+					<p class="card-info-para">
+						The Rod/Bar Threading Machine is use to cut the external threads with the help of Tangential chaser. Chaser is use as a cutter in Machine. The Component remain still, Die-head rotates and different type of threads.<br><br><br>
+					</p>
+					
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-image-container">
+					<img src="img/Hole%20making%20machine.jpg" alt="img" class="card-image">
+				</div>
+				<div class="card-info-container">
+					<h2 class="card-info-heading">Drilling Machine</h2>
+					<br/>
+					<p class="card-info-para">
+						Its main work hole to the metal and wood.<br><br><br><br><br>
+					</p>
+					
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-image-container">
+					<img src="img/Chop%20Saw%20Machine.png" alt="img" class="card-image">
+				</div>
+				<div class="card-info-container">
+					<h2 class="card-info-heading">Chop Saw Machine</h2>
+					<br/>
+					<p class="card-info-para">
+						The chop saw is a motorized ironworking power tool designed to accurately and precisely complete square and angled cuts in iron. It works by spinning a circular steel saw blade at high speed. The blade cuts through the iron, when you push the handle downward.
+					</p>
+					
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-image-container">
+					<img src="img/Welding%20machine.jpg" alt="img" class="card-image">
+				</div>
+				<div class="card-info-container">
+					<h2 class="card-info-heading">Welding Machine</h2>
+					<br/>
+					<p class="card-info-para">
+						Its use for joining to the metal. Welding machines generate heat that melts metal parts, so that these parts can be joined<br><br><br><br>
+						
+					</p>
+					
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-image-container">
+					<img src="img/Grinder%20machine.jpg" alt="img" class="card-image">
+				</div>
+				<div class="card-info-container">
+					<h2 class="card-info-heading">Grinder</h2>
+					<br/>
+					<p class="card-info-para">It’s mainly use for giving shape to the metal and also use to smooth to the metal.
+						<br><br><br><br>
+						
+					</p>
+					
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-image-container">
+					<img src="img/Blower%20machine.jpg" alt="img" class="card-image">
+				</div>
+				<div class="card-info-container">
+					<h2 class="card-info-heading">Blower</h2>
+					<br/>
+					<p class="card-info-para">They are mainly used for flow of air/gas required for exhausting, aspirating, cooling, ventilating, conveying etc.
+						<br><br><br><br>
+						
+					</p>
+					
+				</div>			
+			</div>
+				</center>
+		</div> 
+	</div>
+		<br><hr><br><br>
+		<div class="product">
+			<center><h2 class="h2">Products</h2></center><br><br>
+			<div class="ht_line">
+				<center><h2 class="h2">HT Line</h2></center><br><br>
+				<center>
+				<div class="card">
+					<div class="card-image-container">
+						<img src="img/Cut%20point%20set.jpg" alt="img" class="card-image">
+					</div>
+					<div class="card-info-container">
+						<h2 class="card-info-heading">Cut Point Set</h2>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-image-container">
+						<img src="img/Vcross%20Arm.jpg" alt="img" class="card-image">
+					</div>
+					<div class="card-info-container">
+						<h2 class="card-info-heading">V Cross Aram</h2>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-image-container">
+						<img src="img/HT%20earthing%20pipe.jpg" alt="img" class="card-image">
+					</div>
+					<div class="card-info-container">
+						<h2 class="card-info-heading">HT Eathing Pipe</h2>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-image-container">
+						<img src="img/HT%20Stay%20set.jpg" alt="img" class="card-image">
+					</div>
+					<div class="card-info-container">
+						<h2 class="card-info-heading">HT Stay Set</h2>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-image-container">
+						<img src="img/clamp.jpg" alt="img" class="card-image">
+					</div>
+					<div class="card-info-container">
+						<h2 class="card-info-heading">Clamps</h2>
+					</div>
+				</div>
+				
+			</center>
+			</div>
+			<br><br><br><br>
+			
+			<div id="LT_line">
+				<center><h2 class="h2">LT Line </h2></center>
+			<center>
+				<div class="card">
+					<div class="card-image-container">
+						<img src="img/2%20pin%20angle%20LT%20.jpg" alt="img" class="card-image">
+					</div>
+					<div class="card-info-container">
+						<h2 class="card-info-heading">2 Pin Angle</h2>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-image-container">
+						<img src="img/Stay%20set.jpg" alt="img" class="card-image">
+					</div>
+					<div class="card-info-container">
+						<h2 class="card-info-heading">LT Stay  Set </h2>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-image-container">
+						<img src="img/clamp.jpg" alt="img" class="card-image">
+					</div>
+					<div class="card-info-container">
+						<h2 class="card-info-heading">Clamps</h2>
+					</div>
+				</div>
+			</center>
+			</div><br><br><br>
+			<div id="DTC">
+				<center><h2 class="h2">DTC</h2></center>
+				<center>
+				<div class="card">
+					<div class="card-image-container">
+						<img src="img/TOP%20channel.jpg" alt="img" class="card-image">
+					</div>
+					<div class="card-info-container">
+						<h2 class="card-info-heading">Top Channel</h2>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-image-container">
+						<img src="img/ab%20switch%20fabrication%20set.jpg" alt="img" class="card-image">
+					</div>
+					<div class="card-info-container">
+						<h2 class="card-info-heading">AB Switch </h2>
+					</div>
+				</div>
+				
+				<div class="card">
+					<div class="card-image-container">
+						<img src="img/LA%20angle.jpg" alt="img" class="card-image">
+					</div>
+					<div class="card-info-container">
+						<h2 class="card-info-heading">LA Angle</h2>
+					</div>
+				</div>
+				</center>
+			</div>
+		</div>
+		
+		<div class="vehicle "><br><br>
+			<center><h2 class="h2">Vehicles </h2></center><br>
+			<center>
+			<div class="card">
+				<div class="card-image-container">
+					<img src="img/hydra.jpeg" alt="img" class="card-image">
+				</div>
+				<div class="card-info-container">
+					<h2 class="card-info-heading"></h2>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-image-container">
+					<img src="img/tractor.jpeg" alt="img" class="card-image">
+				</div>
+				<div class="card-info-container">
+					<h2 class="card-info-heading"></h2>
+				</div>
+			</div><div class="card">
+			<div class="card-image-container">
+				<img src="img/bolero.jpeg" alt="img" class="card-image">
+			</div>
+			<div class="card-info-container">
+				<h2 class="card-info-heading"></h2>
+			</div>
+		</div>
+		</center>
+	</div>
+</div>
+</div>
+<br><br><br><br>
+<div class="contact"><br>
+		<center><h2 class="h3"> Contact Us </h2></center><br><center>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a class="instagram" href="https://www.instagram.com/shreenathelectrical1998/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+		<a class="whatsapp" href="https://api.whatsapp.com/send?phone=+919511840657&text=&source=&data=&app_absent=" target="black">
+		<i class="fa fa-whatsapp" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a class="facebook" href="https://www.facebook.com/profile.pdrsau?id=100055539608876/" target="black"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+		</center>
+		<br>
+		<div class="create">
+							<center>
+							<p>Create/Desine BY Saurabh Wankhade</p><br>
+							<a href="https://www.instagram.com/saurabh992003/" title="contact" target="black">Contact me</a>
+							</center>
+		</div>
+	</div>
+<div id="go_to_top"><a class="gotopbtn" href="#go_to_down" title="go to top">
+<i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></div>
+</body>
+</html>

@@ -1,0 +1,323 @@
+<!doctype html>
+<html>
+	<head>
+		<title> SHREENATH ELECTRICAL AND ENGINEER CONTRACTOR</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="res.css">
+		<style>
+			html{
+				font-size: 62.5%;
+				scroll-behavior: smooth;
+			}
+		*{
+		padding: 0;
+		margin: 0;
+		box-sizing: border-box;
+		font-size: 1.5rem;
+		}
+		body{
+		background-color:#fafafa;
+		/* height: 200px; */
+		font-family: sans-serif;
+		}
+		.menu-bar{
+		background: rgb(0,100,0);
+		text-align: center;
+		
+		}
+		.menu-bar ul{
+		display: inline-flex;
+		list-style: none;
+		color: #fff;
+		}
+		.menu-bar ul li{
+		width: 12.0rem;
+		margin: 1.5rem;
+		padding:1.5rem;
+		
+		}
+		.menu-bar ul li a {
+		text-decoration:none;
+		color:#fff;
+		}
+		.active,.menu-bar ul li:hover{
+		background: #2bab0d;
+		border-radius: .3rem;
+		}
+		.menu-bar fa{
+		margin-right: .8rem;
+		}
+		.sub-menu-1{
+		display:none;
+		}
+		.menu-bar ul li:hover .sub-menu-1{
+		display: block;
+		position: absolute;
+		background:rgb(0,100,0);
+		margin-top:1.5rem;
+		margin-left:-1.5rem;
+		}
+		
+		.menu-bar ul li:hover .sub-menu-1 ul{
+		display:block;
+		margin:1.0rem;
+		}
+		.sub-menu-2{
+		display:none;
+		}
+		
+		.menu-bar ul li:hover .sub-menu-2 ul{
+		display:block;
+		margin:1.0rem;
+		}
+		.menu-bar ul li:hover .sub-menu-2{
+		display: block;
+		position: absolute;
+		background:rgb(0,100,0);
+		margin-left:-1.6rem;
+		margin-top:1.4rem;
+		}
+		.shree{
+		margin-top:-4.0rem;
+		background-color:#fff4fc;
+		margin-left:3.0rem;
+		margin-bottom:3.0rem;
+		margin-right:3.0rem;
+		height:10.0rem;
+		z-index: 2;
+		}
+		.company_logo{
+		margin-top: .0rem;
+		margin-left: -5.0rem;
+		height: 5.0rem;
+		width: 10.0rem;
+		border-style: solid yellow .1rem;
+		border-radius: 100%;
+		cursor: pointer;
+		}
+		.company_logo:hover{
+		transform: scale(1.2);
+		transition:all 300ms;
+		}
+		/* contact us */
+		.contact-us{
+		display: grid;
+		background-color: #A8E3F3 ;
+		width: 100%;
+		height: 100vh;
+		text-align: center;
+		align-items: center;
+		}
+		.contact-in{
+		width: 80%;
+		height: auto;
+		margin: auto;
+		display: flex;
+		flex-wrap: wrap;
+		padding: 1.0rem;
+		border-radius: 1.0rem;
+		background: #fff;
+		box-shadow: .0rem .0rem 1.0rem .0rem #666;
+		}
+		.contact-map{
+		width: 100%;
+		height: auto;
+		flex: 50%;
+		}
+		.contact-map iframe{
+		width: 100%;
+		height: 100%;
+		
+		}
+		.contact-form{
+		width: 100%;
+		height: auto;
+		padding: 5.0rem;
+		flex: 50%;
+		
+		}
+		.contact-form h1{
+		margin-bottom: 1.0rem;
+		}
+		.contact-form-txt{
+		width: 100%;
+		height: 4.0rem;
+		color: #000;
+		border: .1rem solid #bcbcbc;
+		border-radius: 5.0rem;
+		outline: none;
+		margin-bottom: 2.0rem;
+		padding: 1.5rem;
+		
+		}
+		.contact-form-textarea{
+		width: 100%;
+		height: 13.0rem;
+		color: #000;
+		border: .1rem solid #bcbcbc;
+		border-radius: 5.0rem;
+		outline: none;
+		margin-bottom: 2rem;
+		padding: 1.5rem;
+		
+		}
+		.contact-form-btn{
+		width: 100%;
+		border:none;
+		outline: none;
+		border-radius: 5.0rem;
+		background-color: #1F7992  ;
+		color: #fff;
+		text-transform: uppercase;
+		padding: 1rem 0;
+		cursor: pointer;
+		font-size: 1.8rem;
+		}
+		/* end contact */
+		
+		/* create */
+		.create p{
+			color: #D4F3CC;
+			/* text-align: right; */
+			/* text-decoration: none; */
+		}
+		.create a{
+			/* right: 0rem; */
+			text-decoration: none;
+			color: #F1B691;
+			font-size: 2rem;
+		}
+		.create a:hover{
+			color: #F0620C;
+		}
+		/* contact */
+		.gotopbtn {
+		position: fixed;
+		width: 5.0rem;
+		height: 5.0rem;
+		background-color: #27ae60;
+		bottom: 5.0rem;
+		right: 6.0rem;
+		text-decoration: none;
+		line-height: 5.0rem;
+		text-align: center;
+		color: white;
+		font-size: 3.0rem;
+		}
+		
+		@media (max-width: 998px) {
+		html{
+		font-size: 50%;
+		}
+		h2{
+			font-size: 5rem;
+		}
+		.instagram{
+            font-size: 5rem;
+        }
+        .facebook{
+            font-size: 5rem;
+        }
+        .whatsapp{
+            font-size: 5rem;
+        }
+		}
+		@media(max-width: 768px){
+		html{
+		font-size: 30%;
+		}
+		}
+		@media(max-width: 568px){
+		html{
+		font-size: 20%;
+		}
+		}
+		</style>
+	</head>
+	<body>
+		<div id="go_to_down"></div>
+		<div class="menu-bar">
+			<ul><img class="company_logo" src="img/company%20logo.jpeg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<li class="active"><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
+				<li><i class="fa fa-user" aria-hidden="true"></i><a href="about.html">About us</a>
+				<!-- <div class="sub-menu-1">
+							
+							<ul> <li><a href="company_profile.html">Company profile</a></li>
+								
+								<li><a href="mission.html">Mission</a></li>
+								<li><a href="vision.html">Vision</a></li>
+						
+								
+					</ul>
+					
+			</div> -->
+		</li>
+		<li><i class="fa fa-" aria-hidden="true"></i>Project
+			<div class="sub-menu-1">
+				
+				<ul>
+					<li><a href="project_done.html">Project Done </a></li>
+					<li><a href="project_in_hand.html">Project in Hand </a></li>
+					<li><a href="future_project.html">Future Project </a></li>
+					
+					
+				</ul>
+				
+			</div>
+		</li>
+		<li>Department
+			<div class="sub-menu-2">
+				<ul>
+					<li><a href="manufacturing.html">Manufacturing</a></li>
+					<li><a href="service.html">Service</a></li>
+					
+				</ul>
+			</div>
+		</li>
+		<li><a href="gallery.html"><i class="fa fa-file-image-o" aria-hidden="true"></i>Gallery</a></li>
+		<li><a href="contact.html"><i class="fa fa-phone" aria-hidden="true"></i>Contact us</a></li>
+	</ul>
+</div>
+<div class="contact-us">
+	
+	<div class="contact-in">
+		<div class="contact-map">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d934.3911877377911!2d77.49502022916046!3d20.483062455458068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd137df566b9593%3A0x3697ba0768459247!2sShreenath%20Electrical%20and%20Engineers%20Contractor!5e0!3m2!1smr!2sin!4v1618839120212!5m2!1smr!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+		</div>
+		<div class="contact-form">
+			<h1>Contact Us</h1>
+			<form action="contact-form-handle.pdrsau" id="contact-form" method="post" accept-charset="utf-8">
+				<input class="contact-form-txt" type="text" name="Name" placeholder="Name" required="">
+				<input class="contact-form-txt" type="text" name="Email" placeholder="Email" required="">
+				
+				<textarea class="contact-form-textarea" placeholder="Message" required=""></textarea>
+				<input class="contact-form-btn" type="submit" name="Submit" onclick="myFunction()">
+			</form>
+		</div>
+	</div>
+</div>
+<div class="contact"><br>
+        <center><h2 class="h3"> Contact Us </h2></center><br><center>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a class="instagram" href="https://www.instagram.com/shreenathelectrical1998/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        <a class="whatsapp" href="https://api.whatsapp.com/send?phone=+919511840657&text=&source=&data=&app_absent=" target="black">
+        <i class="fa fa-whatsapp" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a class="facebook" href="https://www.facebook.com/profile.pdrsau?id=100055539608876/" target="black"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        </center>
+        <br>
+        <div class="create">
+                            <center>
+                            <p>Create/Desine BY Saurabh Wankhade</p><br>
+                            <a href="https://www.instagram.com/saurabh992003/" title="contact" target="black">Contact me</a>
+                            </center>
+        </div>
+    </div>
+<div id="go_to_top"><a class="gotopbtn" href="#go_to_down" title="go to top">
+<i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></div>
+<script>
+function myFunction() {
+  alert("Thanks You!");
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+.contact{
+            background-color: black;
+            color: white;
+            /* text-decoration: none; */
+            /* font-size: 3rem; */
+            
+        }
+        .h2{
+            font-size: 4rem;
+        }
+        .instagram{
+            text-decoration: none;
+            color: green;
+            letter-spacing: 5rem;
+            font-size: 2rem;
+        }
+        .instagram:hover{
+            color: #36FA05  ;
+        }
+        .whatsapp{
+            text-decoration: none;
+            color: green;
+            font-size: 2rem;
+        }
+        .whatsapp:hover{
+            color: #36FA05;
+        }
+        .facebook{
+            text-decoration: none;
+            color: green;
+            letter-spacing: 9rem;
+            font-size: 2rem;
+        }
+        .facebook:hover{
+            color: #36FA05;
+        }
+        .h3{
+            font-size: 2.8rem;
+        }
